@@ -1,9 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:simple_bloc_weather_app/repositories/weather_repository.dart';
 
 import '../../models/custom_error.dart';
 import '../../models/weather.dart';
-import '../../repositories/WeatherRepository.dart';
 
 part 'weather_event.dart';
 part 'weather_state.dart';

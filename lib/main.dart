@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;
 
 import 'blocs/blocs.dart';
-import 'repositories/WeatherRepository.dart';
+import 'repositories/weather_repository.dart';
 import 'services/weather_api_services.dart';
 import 'pages/home_page.dart';
 
